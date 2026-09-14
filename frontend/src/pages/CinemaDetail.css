@@ -1,0 +1,58 @@
+.cinema-detail {
+  padding: 40px 20px 60px;
+}
+
+.cinema-detail__title {
+  font-size: 2.6rem;
+  margin: 4px 0 0;
+  line-height: 1;
+}
+
+.cinema-detail__address {
+  color: var(--color-text-muted);
+  margin: 6px 0 28px;
+}
+
+.cinema-detail__date-picker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.cinema-detail__date-picker input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+.cinema-detail__screening-list {
+  display: grid;
+  gap: 14px;
+}
+
+.cinema-detail__screening {
+  padding: 16px 20px;
+}
+
+.cinema-detail__screening-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.cinema-detail__movie-title {
+  font-size: 1rem;
+}
+
+.cinema-detail__showtimes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

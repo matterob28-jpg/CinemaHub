@@ -1,0 +1,74 @@
+.film-detail {
+  padding: 40px 20px 60px;
+}
+
+.film-detail__hero {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 44px;
+  flex-wrap: wrap;
+}
+
+.film-detail__poster {
+  width: 220px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.film-detail__info {
+  flex: 1;
+  min-width: 260px;
+}
+
+.film-detail__title {
+  font-size: 2.6rem;
+  margin: 4px 0 8px;
+  line-height: 1;
+}
+
+.film-detail__overview {
+  margin-top: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+  max-width: 60ch;
+}
+
+.film-detail__screenings h2 {
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+}
+
+.film-detail__date-group {
+  margin-bottom: 28px;
+}
+
+.film-detail__date-title {
+  margin: 0 0 10px;
+  text-transform: capitalize;
+}
+
+.film-detail__cinema-list {
+  display: grid;
+  gap: 14px;
+}
+
+.film-detail__cinema-block {
+  padding: 16px 20px;
+}
+
+.film-detail__cinema-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.film-detail__cinema-name:hover {
+  color: var(--color-gold);
+}
+
+.film-detail__showtimes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}

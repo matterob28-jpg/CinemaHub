@@ -1,0 +1,68 @@
+.my-bookings {
+  padding: 40px 20px 60px;
+}
+
+.my-bookings h1 {
+  font-size: 2.4rem;
+  margin: 0 0 28px;
+}
+
+.my-bookings__list {
+  display: grid;
+  gap: 14px;
+}
+
+.my-bookings__item {
+  padding: 18px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.my-bookings__item.is-cancelled {
+  opacity: 0.55;
+}
+
+.my-bookings__info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.my-bookings__cinema {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.my-bookings__cinema:hover {
+  color: var(--color-gold);
+}
+
+.my-bookings__tickets {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.my-bookings__status {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.my-bookings__confirm {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.my-bookings__badge {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+  padding: 6px 12px;
+  border-radius: 6px;
+}

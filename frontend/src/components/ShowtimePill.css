@@ -1,0 +1,11 @@
+.showtime-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-gold-dim);
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--color-gold);
+}

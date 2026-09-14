@@ -1,0 +1,19 @@
+.search-results {
+  padding: 40px 20px 60px;
+}
+
+.search-results__title {
+  font-size: 2.2rem;
+  margin: 6px 0 28px;
+}
+
+.search-results__cinema-list {
+  display: grid;
+  gap: 16px;
+}
+
+.search-results__film-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+}

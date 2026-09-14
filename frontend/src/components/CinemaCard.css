@@ -1,0 +1,63 @@
+.cinema-card {
+  display: block;
+  padding: 18px 20px;
+}
+
+.cinema-card__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.cinema-card__name {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.cinema-card:hover .cinema-card__name {
+  color: var(--color-gold);
+}
+
+.cinema-card__address {
+  margin: 4px 0 14px;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.cinema-card__screenings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cinema-card__screening {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cinema-card__movie-title {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--color-text);
+}
+
+.cinema-card__room {
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+.cinema-card__showtimes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cinema-card__no-screenings {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  font-style: italic;
+}
