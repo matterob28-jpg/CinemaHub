@@ -1,8 +1,7 @@
 # CinemaHub 🎬
 
-Full-stack web application to browse the showtimes of cinemas in the provinces of **Parma** and **Reggio Emilia** (Italy), search for movies and **book tickets online** (with a simulated payment).
+Full-stack web application to browse the showtimes of cinemas in the provinces of **Parma** and **Reggio Emilia** , search for movies and **book tickets online** (with a simulated payment).
 
-Project for the *Internet Technologies* course – University of Parma, academic year 2025/2026.
 
 ![Home](docs/screenshots/home.png)
 
