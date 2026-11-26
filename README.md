@@ -85,13 +85,31 @@ npm run promote-admin -- your@email.com
 
 ## Screenshots
 
-| Search | Booking |
-|---|---|
-| ![Search](docs/screenshots/search.png) | ![Booking](docs/screenshots/booking.png) |
+### Browsing
 
-| Ticket | Admin panel |
+| Home – today's showtimes | Movie search (TMDB) |
 |---|---|
-| ![Ticket](docs/screenshots/ticket.png) | ![Admin](docs/screenshots/admin.png) |
+| ![Home](docs/screenshots/home.png) | ![Movie search](docs/screenshots/movie-search.png) |
+
+| Cinema search | Movie details and where to watch it |
+|---|---|
+| ![Cinema search](docs/screenshots/cinema-search.png) | ![Movie details](docs/screenshots/movie-detail.png) |
+
+### Booking
+
+| Choosing tickets | Ticket |
+|---|---|
+| ![Booking](docs/screenshots/booking.png) | ![Ticket](docs/screenshots/ticket.png) |
+
+| My bookings | Sign up |
+|---|---|
+| ![My bookings](docs/screenshots/my-bookings.png) | ![Sign up](docs/screenshots/sign-up.png) |
+
+### Admin panel
+
+| Add a cinema | Add a screening |
+|---|---|
+| ![Admin – cinemas](docs/screenshots/admin-cinemas.png) | ![Admin – screenings](docs/screenshots/admin-screenings.png) |
 
 ## Author
 
