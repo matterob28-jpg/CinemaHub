@@ -26,7 +26,7 @@ app.use("/api/v1/films", filmRoutes);
 
 // Health check endpoint to verify the server is up and responding
 app.get("/api/v1/health", (req,res)=>{
-    res.json({status: "ok", timestamp: new Date().toISOString})
+    res.json({status: "ok", timestamp: new Date().toISOString()})
 });
 
 const PORT= process.env.PORT || 5000;
